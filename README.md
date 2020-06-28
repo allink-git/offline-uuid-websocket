@@ -29,7 +29,5 @@ connection.onerror = (error) => {
 
 connection.onmessage = (e) => {
  jar.kill();
- client.write("chat",{
-  message:`UUID of ${user} is ${e.data}`
-})
+ console.log(`UUID of ${user} is ${e.data}`)
 ```
