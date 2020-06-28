@@ -30,4 +30,5 @@ connection.onerror = (error) => {
 connection.onmessage = (e) => {
  jar.kill();
  console.log(`UUID of ${user} is ${e.data}`)
+}
 ```
