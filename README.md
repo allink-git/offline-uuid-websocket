@@ -6,3 +6,7 @@
 ```sh 
 $ java -jar offline-uuid-websocket.jar (PORT, optional, default 6000) 
 ```
+
+## Usage
+
+Transmit the username of the player who's UUID you would like to retrieve, and the application will return the UUID.
