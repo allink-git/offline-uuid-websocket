@@ -3,4 +3,6 @@
 
 ## Execution
 
-``` java -jar offline-uuid-websocket.jar (PORT, optional, default 6000) ```
+```sh 
+java -jar offline-uuid-websocket.jar (PORT, optional, default 6000) 
+```
